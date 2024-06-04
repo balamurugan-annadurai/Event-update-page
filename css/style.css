@@ -3,13 +3,15 @@
     color: #fff;
 }
 .outer-container{
- background-color: #28282B;   
+ background-color: #28282B; 
 }
+
 .img{
-    width: 200px;
+    width: 250px;
 }
 .container{
     padding: 10px 20px;
+    
 }
 .btn-1{
     margin-bottom: 10px;
