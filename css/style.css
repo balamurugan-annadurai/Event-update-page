@@ -5,6 +5,7 @@
 .outer-container{
  background-color: #28282B;
  padding: 20px;  
+ height: 100vh;
 }
 .img{
     width: 250px;
