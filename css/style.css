@@ -1,8 +1,10 @@
 *{
     font-family: "Poppins", sans-serif;
+    color: #fff;
 }
 .outer-container{
- border: 2px solid;    
+ border: 2px solid; 
+ background-color: #28282B;   
 }
 .img{
     width: 350px;
@@ -15,4 +17,20 @@
 }
 .title{
     font-size: 20px;
+}
+.input-box input,select{
+    padding: 7px 10px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background: none;
+    margin-bottom: 10px;
+}
+option{
+    color: #28282B;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+
 }
