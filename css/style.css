@@ -3,14 +3,14 @@
     color: #fff;
 }
 .outer-container{
- background-color: #28282B;
- padding: 20px;  
- height: 100vh;
+ background-color: #28282B;   
 }
 .img{
-    width: 250px;
+    width: 200px;
 }
-
+.container{
+    padding: 10px 20px;
+}
 .btn-1{
     margin-bottom: 10px;
 }
@@ -22,7 +22,7 @@
     border-radius: 30px;
     border: 2px solid #fff;
     background: none;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 option{
     color: #28282B;
@@ -33,7 +33,7 @@ option{
     border: none;
 
 }
-.star label:after {
-    content:" *";
+.star label::after{
+    content: "*";
     color: red;
-  }
+}
