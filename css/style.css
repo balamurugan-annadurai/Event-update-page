@@ -1,41 +1,34 @@
-*{
-    font-family: "Poppins", sans-serif;
-    color: #fff;
-}
-.outer-container{
- background-color: #28282B; 
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-.img{
-    width: 150px;
+body{
+    font-family: "Nunito Sans", sans-serif;
+  
 }
-.container{
-    padding: 10px 20px;
-    
+.test{
+    border: 5px solid red;
 }
-.btn-1{
-    margin-bottom: 10px;
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
-.title{
-    font-size: 20px;
+img{
+    width: 60%;
+    /* background-color: #212529;
+    padding: 20px 35px;
+    border-radius: 25px; */
 }
-.input-box input,select{
-    padding: 7px 10px;
-    border-radius: 30px;
-    border: 2px solid #fff;
-    background: none;
-    margin-bottom: 5px;
+.dropdown-toggle{
+   text-align: center;
 }
-option{
-    color: #28282B;
+.zero{
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
-.btn{
-    padding: 10px 20px;
-    border-radius: 30px;
-    border: none;
-
-}
-.star label::after{
-    content: "*";
+.required:after {
+    content:" *";
     color: red;
-}
+  }
