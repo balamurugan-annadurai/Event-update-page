@@ -2,10 +2,7 @@
 
 body{
     font-family: "Nunito Sans", sans-serif;
-  
-}
-.test{
-    border: 5px solid red;
+    
 }
 .img-container{
     display: flex;
@@ -16,17 +13,7 @@ body{
 }
 img{
     width: 60%;
-    /* background-color: #212529;
-    padding: 20px 35px;
-    border-radius: 25px; */
-}
-.dropdown-toggle{
-   text-align: center;
-}
-.zero{
-    margin: 0;
-    padding: 0;
-    border: 0;
+    
 }
 .required:after {
     content:" *";

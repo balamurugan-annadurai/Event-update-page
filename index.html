@@ -12,10 +12,11 @@
 </head>
 <body>
    
-   <div class="container-fluid pt-3 vh-100">
-    <div class="row g-0 h-100">
+   <div class="container-fluid vh-100">
+    <div class="row g-0 h-100 align-content-around align-content-md-around align-content-xl-center
+">
        <!-- Title element -->
-       <div class="text-center h-auto">
+       <div class="text-center">
         <p class="fs-3">Web Development Workshop</p>
         <p class="fs-5">Number of available seats: 23</p>
      </div>
@@ -47,7 +48,7 @@
                     <span class="input-group-text required">
                         <i class='bx bx-envelope'></i>
                     </span>
-                    <input type="text"  required class="form-control p-3 form-control-lg fs-6" placeholder="Email">
+                    <input type="email"  required class="form-control p-3 form-control-lg fs-6" placeholder="Email">
                  </div>
 
                  <div class="input-group mb-4">
@@ -62,17 +63,11 @@
                         <i class='bx bx-select-multiple' ></i>
                     </span>
                     
-                    <div class="dropdown form-control p-3">
-                        <button class="btn dropdown text-secondary zero" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Choose number of seats
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">1</a></li>
-                          <li><a class="dropdown-item" href="#">2</a></li>
-                          
-                        </ul>
-                      </div>
-
+                    <select name="" id="" class="form-control p-3 text-secondary">
+                      <option value="" class="text-secondary">Choose no of seats</option>
+                      <option value="" class="text-secondary">1</option>
+                      <option value="" class="text-secondary">2</option>
+                    </select>
                       
                 </div>
                 <div class="input-group mb-4">
